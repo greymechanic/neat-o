@@ -1,0 +1,129 @@
+body{
+  background: $blue;
+  @include media($small-up) {
+    background: purple;
+  }
+  @include media($medium-up) {
+    background: green;
+  }
+  @include media($large-up) {
+    background: black;
+  }
+  @include media($x-large-up) {
+    background: gray;
+  }
+}
+
+/*
+ *
+ *
+ * Navigation
+ *
+ *
+ */
+.main-nav {
+  padding-top: 1em;
+  h5{
+    display: inline-block;
+    margin-left: 1em; 
+    padding-right: 0;
+  }
+  ul.menu{
+    display: inline;
+    float: right;
+    margin-right: 1em;
+    margin-top: -0.9em;
+    li{
+      font-family: 'calibre_medium';
+      font-size: em(15);
+      text-transform: uppercase;
+      display: none;
+      a{
+        color: $white;
+        cursor: pointer;
+        @include transition(color 0.2s ease-in-out);
+        &:hover {
+          color: $gold;
+        }
+      }
+    }
+    #nav-toggle{
+      display: inline;
+    }
+  }
+  @include media($small-up) {
+    padding-top: 2em;
+    h5{
+      margin-left: 2em; 
+    }
+    #nav-toggle{
+      margin-right: 1em;
+    }
+  }
+  @include media($medium-up) {
+    padding-top: 2em;
+    ul.menu{
+      display: inline;
+      margin-right: none;
+      margin-top: none;
+      float: none;
+      #nav-toggle{
+        display: none;
+      }
+      li{
+        display: inline;
+      }
+    }
+    h5{
+      margin-left: 1.5em; 
+      margin-right: 1.5em;
+    }
+    li{
+      margin-right: 2em;
+    }
+  }
+  @include media($large-up) {
+    padding-top: 4em;
+    h5{
+      margin-left: 0;
+      margin-right: 4em;
+    }
+    li{
+      margin-right: 6em;
+    }
+  }
+} // end navigation
+
+
+/*
+ *
+ *
+ * FOOTER
+ *
+ *
+ */
+footer section{
+  border-top: $base-border;
+  padding-bottom: 5em;
+  .links a {
+    margin-right: 1em;
+  }
+  img {
+    max-height: 32px;
+    position: absolute;
+    margin-top: -0.3em;
+    margin-left: -3em;
+    &.social{
+      max-height: 20px;
+      position: relative;
+      margin: auto;
+      top: 4px;
+    }
+  }
+  article {
+    margin-top: 1em;
+    &:first-of-type {
+      margin-top: 6em;
+    }
+  }
+}  // end footer

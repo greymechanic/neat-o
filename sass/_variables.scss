@@ -1,0 +1,46 @@
+// Typography
+$base-font-family: 'PFCentroSlabPro_Regular';
+$heading-font-family: 'calibre_semibold';
+$sub-heading-font-family: 'calibre_bold';
+
+// Font Sizes
+$em-base: 16;
+$base-font-size: em(18, $em-base);
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 0;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$white: #FFFFFF;
+$grey: #282828;
+$blue: #0778BD;
+$gold: #AD7432;
+$off-grey: #333132;
+$light-grey: #747474;
+
+// Font Colors
+$base-font-color: $grey;
+$heading-font-color: $white;
+$action-color: $gold;
+
+// Border
+$base-border-color: $white;
+$base-border: 1px solid $base-border-color;
+
+$action-border-color: $gold;
+$action-border: 1px solid $action-border-color;
+
+// Background Colors
+$base-background-color: $blue;
+$secondary-background-color: $off-grey;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);

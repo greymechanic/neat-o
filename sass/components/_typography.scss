@@ -1,0 +1,96 @@
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+a {
+  color: $base-font-color;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color:$action-color;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0 0 0.5em;
+  color: $heading-font-color;
+
+  a {
+    color: $heading-font-color;
+    &:active,
+    &:focus,
+    &:hover {
+      color:$action-color;
+    }
+  }
+
+}
+
+h1 {
+  font-size: em(54px);
+}
+
+h2 {
+  font-size: em(48px);
+}
+
+h3 {
+  font-size: em(36px);
+}
+
+h4 {
+  font-size: em(28px);
+}
+
+h5 {
+  font-size: em(18px);
+  font-family: 'calibre_bold';
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+h6 {
+  font-size: em(16px);
+  font-family: $base-font-family;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 0;
+  color: $light-grey;
+  width: 100%;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}

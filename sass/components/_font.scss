@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'calibre_black';
+    src: url('assets/fonts/Calibre-Black.otf');
+    src: url('assets/fonts/Calibre-Black.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_black_italic';
+    src: url('assets/fonts/Calibre-BlackItalic.otf');
+    src: url('assets/fonts/Calibre-BlackItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_bold';
+    src: url('assets/fonts/Calibre-Bold.otf');
+    src: url('assets/fonts/Calibre-Bold.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_bold_italic';
+    src: url('assets/fonts/Calibre-BoldItalic.otf');
+    src: url('assets/fonts/Calibre-BoldItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_extra_light';
+    src: url('assets/fonts/Calibre-Extralight.otf');
+    src: url('assets/fonts/Calibre-Extralight.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_extra_light_italic';
+    src: url('assets/fonts/Calibre-Extralightitalic.otf');
+    src: url('assets/fonts/Calibre-Extralightitalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_light';
+    src: url('assets/fonts/Calibre-Light.otf');
+    src: url('assets/fonts/Calibre-Light.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_light_italic';
+    src: url('assets/fonts/Calibre-LightItalic.otf');
+    src: url('assets/fonts/Calibre-Light.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_medium';
+    src: url('assets/fonts/Calibre-Medium.otf');
+    src: url('assets/fonts/Calibre-Medium.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_medium_italic';
+    src: url('assets/fonts/Calibre-MediumItalic.otf');
+    src: url('assets/fonts/Calibre-MediumItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_regular';
+    src: url('assets/fonts/Calibre-Regular.otf');
+    src: url('assets/fonts/Calibre-Regular.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_regular_italic';
+    src: url('assets/fonts/Calibre-RegularItalic.otf');
+    src: url('assets/fonts/Calibre-RegularItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_semibold';
+    src: url('assets/fonts/Calibre-Semibold.otf');
+    src: url('assets/fonts/Calibre-Semibold.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_semibold_italic';
+    src: url('assets/fonts/Calibre-SemiboldItalic.otf');
+    src: url('assets/fonts/Calibre-SemiboldItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_thin';
+    src: url('assets/fonts/Calibre-Thin.otf');
+    src: url('assets/fonts/Calibre-Thin.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibre_thin_italic';
+    src: url('assets/fonts/Calibre-ThinItalic.otf');
+    src: url('assets/fonts/Calibre-ThinItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// PFCentro Sans Pro
+
+@font-face {
+    font-family: 'PFCentroSansPro_black';
+    src: url('assets/fonts/PFCentroSansPro-Black.otf');
+    src: url('assets/fonts/PFCentroSansPro-Black.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_black_italic';
+    src: url('assets/fonts/PFCentroSansPro-BlackItal.otf');
+    src: url('assets/fonts/PFCentroSansPro-BlackItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_bold';
+    src: url('assets/fonts/PFCentroSansPro-Bold.otf');
+    src: url('assets/fonts/PFCentroSansPro-Bold.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_bold_italic';
+    src: url('assets/fonts/PFCentroSansPro-BoldItalic.otf');
+    src: url('assets/fonts/PFCentroSansPro-BoldItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_italic';
+    src: url('assets/fonts/PFCentroSansPro-Italic.otf');
+    src: url('assets/fonts/PFCentroSansPro-Italic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_light';
+    src: url('assets/fonts/PFCentroSansPro-Light.otf');
+    src: url('assets/fonts/PFCentroSansPro-Light.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_light_italic';
+    src: url('assets/fonts/PFCentroSansPro-LightItal.otf');
+    src: url('assets/fonts/PFCentroSansPro-LightItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_medium';
+    src: url('assets/fonts/PFCentroSansPro-Medium.otf');
+    src: url('assets/fonts/PFCentroSansPro-Medium.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_medium_italic';
+    src: url('assets/fonts/PFCentroSansPro-MediumItal.otf');
+    src: url('assets/fonts/PFCentroSansPro-MediumItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_regular';
+    src: url('assets/fonts/PFCentroSansPro-Reg.otf');
+    src: url('assets/fonts/PFCentroSansPro-Reg.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_thin';
+    src: url('assets/fonts/PFCentroSansPro-Thin.otf');
+    src: url('assets/fonts/PFCentroSansPro-Thin.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_thin_italic';
+    src: url('assets/fonts/PFCentroSansPro-ThinItal.otf');
+    src: url('assets/fonts/PFCentroSansPro-ThinItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_x_thin';
+    src: url('assets/fonts/PFCentroSansPro-XThin.otf');
+    src: url('assets/fonts/PFCentroSansPro-XThin.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_x_thin_italic';
+    src: url('assets/fonts/PFCentroSansPro-XThinItalic.otf');
+    src: url('assets/fonts/PFCentroSansPro-XThinItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_UltraBlack';
+    src: url('assets/fonts/PFCentroSansPro-UltraBlack.otf');
+    src: url('assets/fonts/PFCentroSansPro-UltraBlack.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSansPro_UltraBlackItalic';
+    src: url('assets/fonts/PFCentroSansPro-UltraBlackIt.otf');
+    src: url('assets/fonts/PFCentroSansPro-UltraBlackIt.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// PFCentro Serif Pro
+
+@font-face {
+    font-family: 'PFCentroSerifPro_black';
+    src: url('assets/fonts/PFCentroSerifPro-Black.otf');
+    src: url('assets/fonts/PFCentroSerifPro-Black.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_black_italic';
+    src: url('assets/fonts/PFCentroSerifPro-BlackItalic.otf');
+    src: url('assets/fonts/PFCentroSerifPro-BlackItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_bold';
+    src: url('assets/fonts/PFCentroSerifPro-Bold.otf');
+    src: url('assets/fonts/PFCentroSerifPro-Bold.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_bold_italic';
+    src: url('assets/fonts/PFCentroSerifPro-BoldItalic.otf');
+    src: url('assets/fonts/PFCentroSerifPro-BoldItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_italic';
+    src: url('assets/fonts/PFCentroSerifPro-Italic.otf');
+    src: url('assets/fonts/PFCentroSerifPro-Italic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_medium';
+    src: url('assets/fonts/PFCentroSerifPro-Medium.otf');
+    src: url('assets/fonts/PFCentroSerifPro-Medium.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_medium_italic';
+    src: url('assets/fonts/PFCentroSerifPro-MediumItalic.otf');
+    src: url('assets/fonts/PFCentroSerifPro-MediumItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSerifPro_regular';
+    src: url('assets/fonts/PFCentroSerifPro-Regular.otf');
+    src: url('assets/fonts/PFCentroSerifPro-Regular.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// PFCentro Slab Pro
+
+@font-face {
+    font-family: 'PFCentroSlabPro_black';
+    src: url('assets/fonts/PFCentroSlabPro-Black.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Black.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_black_italic';
+    src: url('assets/fonts/PFCentroSlabPro-BlackItal.otf');
+    src: url('assets/fonts/PFCentroSlabPro-BlackItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_bold';
+    src: url('assets/fonts/PFCentroSlabPro-Bold.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Bold.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_bold_italic';
+    src: url('assets/fonts/PFCentroSlabPro-BoldItalic.otf');
+    src: url('assets/fonts/PFCentroSlabPro-BoldItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_italic';
+    src: url('assets/fonts/PFCentroSlabPro-Italic.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Italic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_light';
+    src: url('assets/fonts/PFCentroSlabPro-Light.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Light.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_light_italic';
+    src: url('assets/fonts/PFCentroSlabPro-LightItalic.otf');
+    src: url('assets/fonts/PFCentroSlabPro-LightItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_medium';
+    src: url('assets/fonts/PFCentroSlabPro-Medium.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Medium.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_medium_italic';
+    src: url('assets/fonts/PFCentroSlabPro-MediumItal.otf');
+    src: url('assets/fonts/PFCentroSlabPro-MediumItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_regular';
+    src: url('assets/fonts/PFCentroSlabPro-Regular.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Regular.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_thin';
+    src: url('assets/fonts/PFCentroSlabPro-Thin.otf');
+    src: url('assets/fonts/PFCentroSlabPro-Thin.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_thin_italic';
+    src: url('assets/fonts/PFCentroSlabPro-ThinItal.otf');
+    src: url('assets/fonts/PFCentroSlabPro-ThinItal.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_x_thin';
+    src: url('assets/fonts/PFCentroSlabPro-XThin.otf');
+    src: url('assets/fonts/PFCentroSlabPro-XThin.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_x_thin_italic';
+    src: url('assets/fonts/PFCentroSlabPro-XThinItalic.otf');
+    src: url('assets/fonts/PFCentroSlabPro-XThinItalic.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_UltraBlack';
+    src: url('assets/fonts/PFCentroSlabPro-UBlack.otf');
+    src: url('assets/fonts/PFCentroSlabPro-UBlack.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFCentroSlabPro_UltraBlackItalic';
+    src: url('assets/fonts/PFCentroSlabPro-UBlackIt.otf');
+    src: url('assets/fonts/PFCentroSlabPro-UBlackIt.otf?#iefix') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

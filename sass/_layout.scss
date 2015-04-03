@@ -1,0 +1,44 @@
+section {
+  @include outer-container;
+  text-align: center;
+  margin-bottom: 3em;
+  &.first{
+    margin-bottom: 0;
+  }
+  article {
+    @include span-columns(6);
+  }
+
+  & > code, code.block {
+    display: block;
+  }
+
+  div {
+    height: $base-line-height*4;
+    line-height: $base-line-height;
+    &.half{
+      @include shift(0);
+      @include span-columns(3);
+      @include omega(2n);
+      h3, h4, img{
+        text-align: center;
+      }
+      p{
+        text-align: left;
+      }
+      img{
+        height: 160px;
+        @include margin(null auto);
+        @include padding(2em null);
+      }
+      &:nth-child(0n+1) {
+        border-right: $base-border;
+      }
+    }
+  }
+}
+
+.main-nav {
+  @include outer-container;
+  margin-bottom: 4em;
+}
